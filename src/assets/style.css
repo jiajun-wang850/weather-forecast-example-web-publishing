@@ -1,0 +1,30 @@
+/*
+ * You can define your custom CSS here.
+ */
+
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+html {
+  background: black;
+  color: white;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("static/vineyard.jpg");
+  background-size: cover;
+  filter: brightness(50%);
+}
+
+.background * {
+  filter: brightness(200%);
+}
